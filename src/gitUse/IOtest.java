@@ -13,7 +13,7 @@ public class IOtest {
         System.out.println("\n\n" + result);
     }
 
-    // овый метод для складывания чисел
+    // новый метод для складывания чисел
     private static int additionTwoIntNumbers(int number_1, int number_2){
         return number_1 + number_2;
     }
