@@ -1,13 +1,17 @@
 package gitUse;
 
+import java.util.Scanner;
+
 public class IOtest {
 
     public static void main(String[] args) {
 
-        ganarRandomNumbers();
+        Scanner in = new Scanner(System.in);
+        int num_1 = in.nextInt();
+        int num_2 = in.nextInt();
 
-        int result = additionTwoIntNumbers(4, 3);
-        System.out.println("\n\n" + result);
+        int result = additionTwoIntNumbers(num_1, num_2);
+        System.out.println(result + "\n\n");
 
     }
 
