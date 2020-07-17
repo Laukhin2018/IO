@@ -13,6 +13,8 @@ public class IOtest {
         int result = additionTwoIntNumbers(num_1, num_2);
         System.out.println(result + "\n\n");
 
+        System.out.println("Hello");
+
     }
 
     // новый метод для складывания чисел
@@ -26,4 +28,6 @@ public class IOtest {
             System.out.println((int)coff);
         }
     }
+
+
 }
